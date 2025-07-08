@@ -1,0 +1,149 @@
+#css code 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing:  border-box;
+}
+header {
+    display: flex;
+    background-color: #ffffff;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+.myntra_home {
+    height: 45px;
+    }
+.logo_container {
+    margin-left: 4%;
+}  
+.action_bar {
+    margin-right: 4%;
+}  
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:  28px 0;
+    border-bottom: 5px solid #ffffff;
+    
+}
+.nav_bar a:hover {
+    border-bottom: 4px solid #f54e77;
+}
+.nav_bar a sup {
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+
+.search_bar {
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+
+}
+.search_icon {
+    box-sizing: content-box;
+    height:20px;
+    padding: 10px;
+
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.search_input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+
+}
+.action_bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+.action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*main section*/
+.banner_container{
+    margin: 40px 0;
+}
+.banner_image {
+    width: 100%;
+    height: 400px;
+}
+
+
+#html ccode
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Myntra Clone</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+
+        <div class="logo_container"><a href="#"><img class="myntra_home" src="image/myntra logo.png" alt="myntra home"></a>
+        </div>
+        <nav class="nav_bar">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Home and Living</a>
+            <a href="#">Beuty</a>
+            <a href="#">Studio<sup>New</sup></a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input class="search_input" placeholder="Search for product, brand and more">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">person</span>
+                <span class="action_name">profile</span>
+            </div>
+
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">favorite</span>
+                <span class="action_name">wishlist</span>
+            </div>
+
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">shopping_bag</span>
+                <span class="action_name">beg</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="banner_container">
+            <img class="banner_image" src="image/lambi.jpg" alt="main banner">
+        </div>
+        <div class="category_heading">MODEL WORTHY BRANDS TO BAG</div>
+        <div class="category_items">category items</div>
+    </main>
+    <footer>footer</footer>
+</body>
+</html>
