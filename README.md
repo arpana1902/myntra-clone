@@ -1,4 +1,4 @@
-#css code 
+//css code 
 *{
     margin: 0;
     padding: 0;
@@ -95,7 +95,7 @@ header {
 }
 
 
-#html ccode
+//html code
 <!DOCTYPE html>
 <html lang="en">
 <head>
